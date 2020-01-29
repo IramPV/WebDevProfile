@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #40514E;
+}
+h1{
+  font-family: 'Handlee', cursive;
+  font-size: 4.6rem;
+  color: #66BFBF;
+  line-height: 1;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 1;
+}
+p{
+  line-height: 2;
+}
+
+/******************************Classes*************************************/
+.top-container{
+  padding-top: 10px;
+  background-color: #bbe1fa;
+  position: relative;
+}
+.upper-top{
+  margin: auto;
+  width: 100%;
+  text-align: right;
+  position: absolute;
+}
+.top-cloud{
+  position: sticky;
+  right: 10%;
+}
+.bottom-top{
+  margin: auto;
+  width: 100%;
+  text-align: left;
+  position: absolute;
+}
+.bottom-cloud{
+  position:sticky;
+  left: 10%
+}
+.mountain{
+  position: relative;
+}
+.hr{
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 10px;
+  width: 5%
+}
+.hr-div{
+  padding: 30px 0;
+}
+.middle-container{
+  padding: 50px 0;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.raw{
+  margin: 50px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+.computer-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.chillies-img{
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 40px 0 20px;
+}
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.footer-link{
+  color: #11999E;
+  margin: 0 10px;
+}
+.footer-link:hover{
+  color: white ;
+}
+.surname{
+  color: #EAF6F6;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background:linear-gradient(to bottom, #66BFBF 5%, #66BFBF 100%);
+	background-color:#66BFBF;
+	border-radius:23px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	font-weight:bold;
+	padding:8px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1f7fde;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #61d4b3 5%, #61d4b3 100%);
+	background-color:#61d4b3;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
